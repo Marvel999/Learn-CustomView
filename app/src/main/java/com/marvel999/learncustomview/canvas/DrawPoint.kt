@@ -13,7 +13,7 @@ class DrawPoint(context: Context, attributeSet: AttributeSet) : View(context, at
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
-        setMeasuredDimension(600, 400)
+        setMeasuredDimension(600, 220)
     }
 
     private fun initPaint() {

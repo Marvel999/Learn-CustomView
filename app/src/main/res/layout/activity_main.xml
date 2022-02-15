@@ -23,4 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp" />
+
+    <com.marvel999.learncustomview.canvas.DrawLine
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" />
 </LinearLayout>
