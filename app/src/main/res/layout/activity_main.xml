@@ -5,32 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:background="?colorBase0"
     android:orientation="vertical"
     tools:context=".PreviewActivity">
 
-    <com.marvel999.learncustomview.customview.BasicCustomView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@color/black" />
-
-    <com.marvel999.learncustomview.canvas.LearnCanvas
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp" />
-
-    <com.marvel999.learncustomview.canvas.DrawPoint
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp" />
-
-    <com.marvel999.learncustomview.canvas.DrawLine
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp" />
-
-    <com.marvel999.learncustomview.canvas.DrawRectangle
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp" />
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?colorBaseFill"
+        app:title="@string/app_name"
+        app:titleTextAppearance="@style/TextAppearance.Heading1" />
 </LinearLayout>

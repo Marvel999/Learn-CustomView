@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Typography -->
+    <attr name="textAppearanceHeading1" format="reference" />
+    <attr name="textAppearanceHeading2" format="reference" />
+    <attr name="textAppearanceSmall14" format="reference" />
+    <attr name="textAppearanceMicro" format="reference" />
+
+    <!-- Colors -->
+    <attr name="colorBase0" format="color" />
+    <attr name="colorBaseFill" format="color" />
+    <attr name="colorTextPrimary" format="color" />
+</resources>

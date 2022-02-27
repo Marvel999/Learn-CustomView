@@ -1,0 +1,28 @@
+<resources>
+    <style name="TextAppearance.Heading1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading_1_size</item>
+        <item name="lineHeight">@dimen/heading_1_line_height</item>
+        <item name="fontFamily">@font/roboto_semibold</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Heading2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading_2_size</item>
+        <item name="lineHeight">@dimen/heading_2_line_height</item>
+        <item name="fontFamily">@font/roboto_semibold</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <!-- Text Sizes -->
+    <dimen name="heading_1_size">16sp</dimen>
+    <dimen name="heading_1_line_height">24sp</dimen>
+
+    <dimen name="heading_2_size">14sp</dimen>
+    <dimen name="heading_2_line_height">18sp</dimen>
+
+    <dimen name="small14_size">14sp</dimen>
+    <dimen name="small14_line_height">18sp</dimen>
+
+    <dimen name="micro_size">10sp</dimen>
+    <dimen name="micro_line_height">12sp</dimen>
+</resources>
